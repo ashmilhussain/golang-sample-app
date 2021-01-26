@@ -5,10 +5,10 @@ on:
     branches: [ master ]
 
 env:
-  imageRepository: 'content-api'
-  resourceGroupName: 'ACRReg'
-  containerRegistryName: 'test'
-  containerRegistry: 'test.azurecr.io'
+  imageRepository: 'go-app'
+  resourceGroupName: 'ashmilTest'
+  containerRegistryName: 'MyRegistryAshmil'
+  containerRegistry: 'myregistryashmil.azurecr.io'
   dockerfilePath: '.'
   tag: '${{ github.run_id  }}'
 
